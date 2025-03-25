@@ -18,7 +18,7 @@ export default function Menu() {
 
     <ul className={`menu-links ${menuOpen ? 'open' : ''}`}>
         <a className="items" href="#home">Home</a>
-        <a className="items" href="#sobre">Sobre</a>
+        <a className="items" href="#about">Sobre</a>
         <a className="items" href="#contact">Contato</a>
         <a className="items" href="#catalogo">Mural</a>
     </ul> 
