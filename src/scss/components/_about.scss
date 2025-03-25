@@ -1,0 +1,31 @@
+.container-about {
+  margin-top: 80px;
+  background-color: var(--purple-section);
+  border-top-right-radius: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0;
+  gap: 100px;
+  border-bottom-left-radius: 170px;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    padding: 40px 0;
+    gap: 30px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+  }
+  .content {
+    max-width: 55%;
+    @media screen and (max-width: 768px) {
+      max-width: unset;
+      padding: 0 20px;
+    }
+  }
+  img {
+    width: 300px;
+    @media screen and (max-width: 768px) {
+      width: 250px;
+    }
+  }
+}
