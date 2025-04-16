@@ -1,10 +1,10 @@
 import React from 'react';
-import escorpiao from "../assets/escorpiao.jpg";
-import joaninha from "../assets/joaninha.jpg";
-import panda from "../assets/panda.jpg";
-import arcoIris from "../assets/rosto-arco-iris.jpg";
-import planeta from "../assets/rosto-pintura.jpg";
-import tubarao from "../assets/tubarao.jpg";
+import escorpiao from "../assets/escorpiao.jpeg";
+import joaninha from "../assets/joaninha.jpeg";
+import panda from "../assets/panda.jpeg";
+import arcoIris from "../assets/notas-musicais.jpeg";
+import planeta from "../assets/planetas.jpeg";
+import tubarao from "../assets/tubarao.jpeg";
 
 export default function CatalogoContent() {
   return <div className="container-catalogo">
